@@ -1,0 +1,5 @@
+install.packages("XLConnect")
+install.packages("openxlsx")
+install.packages("dplyr")
+install.packages("purrr")
+install.packages("readr")
