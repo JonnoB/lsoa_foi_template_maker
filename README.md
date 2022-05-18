@@ -40,6 +40,39 @@ There are
 - [Local authority to region lookup](https://data.gov.uk/dataset/87f1b677-eeec-43b0-a01d-a319992ab8e4/local-authority-district-to-region-december-2018-lookup-in-england) 
 
 
+# Making the FOI request
+
+Making an FOI request like this often causes the receiving party concern that completing the request will breach the data protection act. It won't.
+Over the course of sending requests using this template I also made a request template, that reduced the amount of time between sending the request and getting a positive response. I often include a copy of the completed template, ideally a neighbour as this makes it less likely the recieving party will claim it breaches the data protection act. Most initial rejections are because the reciever is scared of doing something wrong, only a handful of teams are deliberately difficult. With that in mind the letter primarily tries to reassure the reciever. Sometimes the recieving party does not have the technical skill to do things like 'paste as values' or copy down formulas', in these cases they are often grateful for a quick phone call just to walk them through it.
+
+The letter is for my original use case of council tax. However both the template and letter can be adapted as necessary.
+
+See below
+
+
+
+To Whom it may Concern
+
+ 
+
+Please provide me with the list of all exemptions and discounts for domestic council tax in `so and so local authority` at LSOA level (not including postcodes) using the template provided. 
+
+Please read the instructions in the yellow box within the template for how to complete the template.
+
+I have attached an example from `some other local authority prefably one close by`.
+
+This information has been successfully provided by over 120 local authorities all with different IT systems, including all the local authorities in London,Birmingham, Manchester and Cumbria.
+ 
+
+This request as been specifically designed so that it does not breach the data protection act. Please read the instructions carefully and check the attached completed example before responding that it does.
+
+Please note you do not need to do any geographical matching the template does that for you.
+
+ If you have any queries please contact me for clarification.
+ 
+
+Regards `your name etc`
+
 
 # Citing
 
