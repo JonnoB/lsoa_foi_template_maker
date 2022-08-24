@@ -13,15 +13,16 @@ The approach uses the fact that all government departments use relational databa
 
 # Instructions
 
-- Download the three datasets shown in the section below to the data folder in the repo
-- Extract the files if neccessary and rename them such that
-    - The ONSPD folder is called "ONSPD"
-    - The LSOA to ward lookup is called "lsoa_to_ward.csv"
-    - The LSOA to region lookup is called "lad_to_region.csv"
+- Download the ONSPD zip file and extract to the data folder in the repo
 - If using docker [build the image](dockerfile)
 - Run the R script or docker image
     - If you are not using the dockerfile make sure you have installed the [required packages](dockerfile/install_packages.r)
 - The resulting files will be in the folder `./data/Regions`. For ease of use the templates are organised by Region of England and Wales
+
+## Notes
+
+If you want to save space navigate to the "Data" folder within the "ONSPD" folder and delete the "multi_csv" folder and the ".txt" file. only the ".csv" is used.
+This will save approx 2GB of space. 
 
 ## Help with Java jdk and jni.h
 
@@ -31,13 +32,7 @@ Installing Java dependencies for R can be a horrible experience, and beyond the 
 
 # Data
 
-The data needed for creating the templates can be found at the links below. The links were the most recent at the time of creating the repo,
-however only the ONSPD really matters. An update for census 2021 areas may be appropriate soon though.
-
-There are 
-- [ONSPD](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-created&tags=onspd)
-- [LSOA to ward lookup](https://data.gov.uk/dataset/9e14de72-df2a-4bbe-b131-1844394e8368/lower-layer-super-output-area-2011-to-ward-2019-lookup-in-england-and-wales)
-- [Local authority to region lookup](https://data.gov.uk/dataset/87f1b677-eeec-43b0-a01d-a319992ab8e4/local-authority-district-to-region-december-2018-lookup-in-england) 
+The process only uses a single dataset, ONSPD a database of postcodes and a lot of useful related data. The ONSPD can be found at this link [ONSPD](https://geoportal.statistics.gov.uk/search?collection=Dataset&sort=-created&tags=onspd). The link was the most recent at the time of creating the repo. An update for census 2021 areas may be appropriate soon though.
 
 
 # Making the FOI request

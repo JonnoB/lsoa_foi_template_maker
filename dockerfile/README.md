@@ -7,7 +7,7 @@ After you have [installed docker](https://www.docker.com/get-started/) and downl
 - navigate to the dockerfile folder in the repo
 - the command `docker build . -t foi_docker/latest:latest`
 - Go back to the main repo folder
-- Run the command docker `run --rm -it -v $(pwd):/app foi_docker/latest:latest`
+- Run the command `docker run --rm -it -v $(pwd):/app foi_docker/latest:latest`
 - laugh as all java issues plaugue someone else.
 
 # Notes
